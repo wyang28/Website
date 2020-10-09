@@ -1,0 +1,75 @@
+*,html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("../images/KaibabAZ.jpg");  
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background-size:100% 100vh;
+    background-repeat:no-repeat;
+}
+
+header{
+    background-color: rgba(24, 25, 29, 0.75);
+    height: 64px; 
+    line-height:64px; 
+    /*height is height of header*/
+    /*line height *aligns* logo at center */
+}
+
+header nav{
+    text-align:center;
+    margin: 6px; /*6px*/
+    margin-top: 0px;
+}
+
+header nav ul li a{
+    /*padding: top right bottom left*/
+    padding: 0 20px 0 20px; /*0 24px 0 24px*/
+    font-size: 22px; 
+    color:white;
+    text-decoration:none;
+    transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover{
+    text-decoration:none;
+    color:white;
+    font-size: 28px; 
+}
+
+ul{
+    list-style:none;
+    /*removes bullet points*/
+}
+
+ul li{
+    display:inline-block;
+    /*puts all navbar items in one line*/
+}
+
+.content{
+    text-align:center;
+    padding:120px 0 0 0;
+}
+
+.email{
+    background-color:rgba(24, 25, 29, 0.4);
+    color:white;
+    padding: 31px 180px 44px 180px;
+    display:inline-block;
+}
+
+#contact{
+    font-family:'Consolas', sans-serif;
+    font-size: 28px;
+}
+
+#text{
+    font-family:'Consolas', sans-serif;
+    font-size: 48px;
+}
