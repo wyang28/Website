@@ -1,0 +1,88 @@
+*,html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("../images/KaibabAZ.jpg");  
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background-size:100% 100vh;
+    background-repeat:no-repeat;
+}
+
+header{
+    background-color: rgba(24, 25, 29, 0.75);
+    height: 64px; 
+    line-height:64px; 
+    /*height is height of header*/
+    /*line height *aligns* logo at center */
+}
+
+header nav{
+    text-align:center;
+    margin: 6px; /*6px*/
+    margin-top: 0px;
+}
+
+header nav ul li a{
+    /*padding: top right bottom left*/
+    padding: 0 20px 0 20px; /*0 24px 0 24px*/
+    font-size: 22px; 
+    color:white;
+    text-decoration:none;
+    transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover{
+    text-decoration:none;
+    color:white;
+    font-size: 28px; 
+}
+
+ul{
+    list-style:none;
+    /*removes bullet points*/
+}
+
+ul li{
+    display:inline-block;
+    /*puts all navbar items in one line*/
+}
+
+.bio{
+    color:white;
+    font-family:'Noto Sans SC', sans-serif;
+    text-align:center;
+    padding: 2.3% 0 1.6% 0; /*16px 0 7px 0*/
+}
+
+#name{
+    font-weight: bold;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: 2em; /*36px*/
+    letter-spacing: 0.70em; /*12 px*/
+    margin-top: 1%;
+    margin-bottom: 1.75%;
+}
+
+#profile{
+    padding: 1.4% 0 0.55% 0; /*20px 0 8px 0*/
+}
+
+#pic{
+    border-radius:50%;
+    border: 2px solid rgb(214, 214, 214);
+}
+
+#desc{
+    background-color:rgba(24, 25, 29, 0.45);
+    /*padding: top right bottom left*/
+    padding: 1.85% 2.5% 1.85% 2.5%; /*10px 30px 10px 42px*/
+    font-family:'Arsenal', sans-serif;
+    font-size: 137.5%; /*22px*/
+    text-align:left;
+    margin: 2.75% 7.75% 0 7.75%; /*1.5rem 18rem 2rem 17rem*/
+}
