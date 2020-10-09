@@ -110,6 +110,11 @@ ul li{
     text-decoration: none;
 }
 
+.card-body .links h6:hover{
+    color: #e30b5d;
+    transition: all 0.3s ease-in;
+}
+
 
 
 
